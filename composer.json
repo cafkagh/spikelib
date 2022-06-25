@@ -1,0 +1,20 @@
+{
+    "name": "spikelib/grpc-hardware",
+    "description": "grpc ptotoc for hardware",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.1.1",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "spike",
+            "email": "643097704@qq.com"
+        }
+    ],
+    "require": {},
+     "autoload": {
+        "psr-4": {
+            "Spikelib\\Grpc\\Hardware\\": "src/grpc/hardware"
+        }
+    }
+}
