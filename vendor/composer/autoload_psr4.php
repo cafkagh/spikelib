@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Spikelib\\Grpc\\Hardware\\' => array($baseDir . '/src/grpc/hardware'),
+    '' => array($baseDir . '/src/grpc/hardware'),
 );

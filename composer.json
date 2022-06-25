@@ -11,10 +11,14 @@
             "email": "643097704@qq.com"
         }
     ],
-    "require": {},
-     "autoload": {
+    "require": {
+        "php": ">=7.1.0",
+        "grpc/grpc": "^1.42",
+        "google/protobuf": "^3.21"
+    },
+    "autoload": {
         "psr-4": {
-            "Spikelib\\Grpc\\Hardware\\": "src/grpc/hardware"
+            "": "src/grpc/hardware"
         }
     }
 }
